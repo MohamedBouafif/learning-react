@@ -14,7 +14,7 @@ A repository documenting my progress in learning React. This contains mini-proje
   - **Creating components from an array of data:**
       - In this project, data was stored in a `data.js` file.
       - In future projects, I plan to fetch the data dynamically from an API.
-  - **Mapping through data:** Dynamically rendered an array of components inside the `App` component using the `.map()` function.
+  - **Mapping through data:** Dynamically rendered an array of components inside the `App` component using the `.map()` function and *making sure that each component in the list has its unique key*
   
   ---
   
