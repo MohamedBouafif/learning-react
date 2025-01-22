@@ -27,7 +27,7 @@ A repository documenting my progress in learning React. This contains mini-proje
   - **AI API Integration:** Sends the ingredients to an AI-powered API.
   - **Recipe Generation:** Returns a list of recipes tailored to the user's ingredients.
   - **Event Hundler in React:**
-  - **States:** Learning the two ways of using state :
+  - **State management:** Learning the two ways of using state :
     - Pass the new version of state that we want to use as the replacement for the old version of state.
     - Pass a callback function. Must return what we want the new value of state to be. Will receive the old version of state as a parameter   
   - **Dynamic UI:** Displays the relevant recipes along with details like cooking time and instructions.
