@@ -1,6 +1,6 @@
 # learning-react
 A repository documenting my progress in learning React. This contains mini-projects, experiments, and notes that demonstrate my growth and understanding of React concepts, from the basics to advanced topics like state management, hooks, and component architecture.
-# What i Learnerd so far (dont hesitate to visit my list of projects which is more discriptive )
+# What i Learnerd so far (dont hesitate to visit my list of projects which is more descriptive )
   # Project 1: Travel List
   
   This project demonstrates my understanding of core React concepts. It focuses on the creation of a travel list application.
