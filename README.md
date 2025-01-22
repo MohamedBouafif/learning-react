@@ -27,7 +27,8 @@ A repository documenting my progress in learning React. This contains mini-proje
   - **AI API Integration:** Sends the ingredients to an AI-powered API.
   - **Recipe Generation:** Returns a list of recipes tailored to the user's ingredients.
   - **Event Hundler in React:**
-    -The hover event: it's not built but we can implement it using twi event listeners: ##### onMouseEnter && onMouseLeave
+    -The hover event: it's not built but we can implement it using twi event listeners: 
+        ### onMouseEnter && onMouseLeave
   - **Dynamic UI:** Displays the relevant recipes along with details like cooking time and instructions.
 
 
