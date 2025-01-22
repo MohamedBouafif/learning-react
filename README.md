@@ -5,11 +5,12 @@ A repository documenting my progress in learning React. This contains mini-proje
   
   This project demonstrates my understanding of core React concepts. It focuses on the creation of a travel list application.
   
-  ### Key Features:
+  ### What i learned:
   - **Setting up a new React project:** Created a React application using Vim for an efficient setup.
   - **Using JSX:** Returned JavaScript objects to describe what React should display on the page.
   - **Composability:** Built custom components that handle specific parts of the UI.
   - **Reusability:** Utilized `props` to make components reusable across the application.
+  - **Linking to static assets in vite:**
   - **Creating components from an array of data:**
       - In this project, data was stored in a `data.js` file.
       - In future projects, I plan to fetch the data dynamically from an API.
@@ -21,7 +22,7 @@ A repository documenting my progress in learning React. This contains mini-proje
   
   Chef Claude is a web application that allows users to input ingredients they have on hand and interact with an AI API to retrieve a list of possible recipes that can be made with those ingredients.
   
-  ### Key Features:
+  ### What i learned:
   - **User Input:** Allows users to input the ingredients they have.
   - **AI API Integration:** Sends the ingredients to an AI-powered API.
   - **Recipe Generation:** Returns a list of recipes tailored to the user's ingredients.
