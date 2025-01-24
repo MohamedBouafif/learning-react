@@ -30,7 +30,7 @@ A repository documenting my progress in learning React. This contains mini-proje
   - **State management:** Learning the two ways of using state :
     - Pass the new version of state that we want to use as the replacement for the old version of state.
     - Pass a callback function. Must return what we want the new value of state to be. Will receive the old version of state as a parameter   
-  - **Fomrs:** Learning the declarative way of accessing and gathering data forms by specifying a function in the action attribute
+  - **Fomrs:** Learning the declarative way of accessing and gathering data forms by implementing a function in the action attribute
   - **Conditional rendering:**
   - **Dynamic UI:** Displays the relevant recipes along with details like cooking time and instructions.
 
