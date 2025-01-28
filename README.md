@@ -30,8 +30,11 @@ A repository documenting my progress in learning React. This contains mini-proje
   - **State management:** Learning the two ways of using state :
     - Pass the new version of state that we want to use as the replacement for the old version of state.
     - Pass a callback function. Must return what we want the new value of state to be. Will receive the old version of state as a parameter   
-  - **Fomrs:** Learning the declarative way of accessing and gathering data forms by specifying a function in the action attribute
-  - **Conditional rendering:**
+  - **Fomrs:** Learning the declarative way of accessing and gathering data forms by implementing a function in the action attribute
+  - **Conditional rendering**
+  - **Shared state:**
+    - Derived State : deriving the component's state  based on the parent state by implementing a state inside the child component => *Ussue: Multiple Sources of truth  which means that the current component will loose synchronisatiion with the states stored in theparent component*
+    - Unified source of truth: implementing a function in the parent component that uses a state to determine which child component needs to change its properties => *One source of truth: Synchronisation of child components with the parent component*
   - **Dynamic UI:** Displays the relevant recipes along with details like cooking time and instructions.
 
 
