@@ -2,6 +2,9 @@ import React from "react";
 export default function Main() {
   let [ingredients, setIngredients] = React.useState([]);
   let [receipeShown, setReceipeShown] = React.useState(false);
+
+
+
   // THIS IS THE IMPERATIVE VERSION OF HUNDLING FORMS :
   // function handleSubmit(event) {
   //     //to prevent default behaviour of the submit event of the submit tag (which it rerun the page when submitting the form)
@@ -18,15 +21,21 @@ export default function Main() {
   //     formEl.reset()
   // }
 
-  const ingredientListItems = ingredients.map((ingredient) => (
-    <li key={ingredient}>{ingredient}</li>
-  ));
-
+  
   //this is the declarative way and i dont know why it doesnt work
   function addIngredient(formData) {
     const newIngredient = formData.get("ingredient");
     setIngredients((prevIngredients) => [...prevIngredients, newIngredient]);
   }
+
+
+  const ingredientListItems = ingredients.map((ingredient) => (
+    <li key={ingredient}>{ingredient}</li>
+  ));
+
+
+
+
   function handleClick() {
     setReceipeShown((prevShown) => !prevShown);
   }
@@ -45,7 +54,7 @@ export default function Main() {
           aria-label="Add Ingredient"
           name="ingredient" //to get the data from the dataForm object
         />
-        {/* the button inside a form has a type by default  = submit */}
+        {/* the button inside a form has a type by default  = submit  so its better to use buton instead of submit element  */}
         <button className="button-add">+ Add ingredient</button>
       </form>
       {ingredients.length ? (
