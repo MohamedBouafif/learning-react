@@ -43,4 +43,10 @@ A repository documenting my progress in learning React. This contains mini-proje
   - **Controlled Components:** Its a component that React is in control of and does reflect the current value of state , to make the a component controlled we need 2 things :
     - Be able to update state EVERY TIME there is a change inside of an input element (eg. input box)
     - Making the input reflect the current value of STATE
-  
+  - **Fetching data:** without using use effect we will stuck in  an infinite loop  -> not handling side effects!
+  - **useEffect:**  useEffect(callbackfunction to execute any code that has side effect on the state and it will run on every single runder, dependecies array : rerunning the callbackfunction if the array changed its values )  [the component renders than it execute the useEffect function !]
+  - **when using useEffect :**
+    - Any code that affects or interacts with an outside system
+    - local storage, API, websockets, DOM manipulation
+  -**Cleanup function :**
+    - its a returned function from the anonymous callback function if the useEffect and its role is to describe to our useEffect what to do when our component disapear from the page
