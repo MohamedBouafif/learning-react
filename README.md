@@ -5,7 +5,7 @@ A repository documenting my progress in learning React. This contains mini-proje
   
   This project demonstrates my understanding of core React concepts. It focuses on the creation of a travel list application.
   
-  ### What i learned:
+  ### What I learned:
   - **Setting up a new React project:** Created a React application using Vim for an efficient setup.
   - **Using JSX:** Returned JavaScript objects to describe what React should display on the page.
   - **Composability:** Built custom components that handle specific parts of the UI.
@@ -37,5 +37,10 @@ A repository documenting my progress in learning React. This contains mini-proje
     - Unified source of truth: implementing a function in the parent component that uses a state to determine which child component needs to change its properties => *One source of truth: Synchronisation of child components with the parent component*
   - **Dynamic UI:** Displays the relevant recipes along with details like cooking time and instructions.
 
+  # Project 3: Meme Generator
 
+  ### What i learned:
+  - **Controlled Components:** Its a component that React is in control of and does reflect the current value of state , to make the a component controlled we need 2 things :
+    - Be able to update state EVERY TIME there is a change inside of an input element (eg. input box)
+    - Making the input reflect the current value of STATE
   
